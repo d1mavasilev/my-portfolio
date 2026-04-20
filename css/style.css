@@ -264,10 +264,19 @@ body.home.avatar-in-header .header {
     padding: 0;
 }
 
+.experience .experience-description {
+    margin-bottom: var(--spacing-xs);
+}
+
 .experience > ul > li > ul {
     list-style: disc;
     padding-left: var(--spacing-md);
-    margin-top: var(--spacing-sm);
+    margin-top: var(--spacing-xs);
+    margin-bottom: var(--spacing-sm);
+}
+
+.experience > ul > li > ul > li {
+    margin-bottom: var(--spacing-xs);
 }
 
 /* Кейсы */
