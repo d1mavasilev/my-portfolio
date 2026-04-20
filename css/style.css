@@ -262,6 +262,11 @@ body.home.avatar-in-header .header {
 
 .experience > ul > li {
     padding: 0;
+    margin-bottom: var(--spacing-md);
+}
+
+.experience > ul > li:last-child {
+    margin-bottom: 0;
 }
 
 .experience .experience-description {
