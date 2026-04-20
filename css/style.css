@@ -261,7 +261,7 @@ body.home.avatar-in-header .header {
 }
 
 .experience > ul > li {
-    padding: var(--spacing-md) 0;
+    padding: 0;
 }
 
 .experience > ul > li > ul {
