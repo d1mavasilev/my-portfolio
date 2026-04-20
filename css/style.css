@@ -255,13 +255,19 @@ body.home.avatar-in-header .header {
 }
 
 /* Опыт */
-.experience ul {
+.experience > ul {
     list-style: none;
     padding: 0;
 }
 
-.experience li {
+.experience > ul > li {
     padding: var(--spacing-sm) 0;
+}
+
+.experience > ul > li > ul {
+    list-style: disc;
+    padding-left: var(--spacing-md);
+    margin-top: var(--spacing-sm);
 }
 
 /* Кейсы */
