@@ -68,7 +68,7 @@ body {
 }
 
 .logo img {
-    height: 32px;
+    height: 40px;
     width: auto;
     display: block;
 }
@@ -81,8 +81,8 @@ body {
 }
 
 .breadcrumbs-avatar img {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     display: block;
     margin-right: 12px;
