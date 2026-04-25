@@ -73,13 +73,6 @@ body {
     display: block;
 }
 
-.breadcrumbs {
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    color: var(--color-text-light);
-}
-
 .header-user {
     display: inline-flex;
     align-items: center;
@@ -101,23 +94,8 @@ body {
 
 .header-user span:last-child {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--color-text);
-}
-
-.breadcrumbs a {
-    color: var(--color-text);
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.breadcrumbs a:hover {
-    color: var(--color-accent);
-}
-
-.breadcrumbs .separator {
-    margin: 0 var(--spacing-xs);
-    color: var(--color-text-light);
 }
 
 .header-cta {
@@ -609,6 +587,10 @@ figcaption {
 
     .project-cta-card {
         padding: var(--spacing-md);
+    }
+
+    .header {
+        padding: 12px 0;
     }
 }
 
