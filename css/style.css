@@ -80,12 +80,29 @@ body {
     color: var(--color-text-light);
 }
 
+.header-user {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.header-user:hover {
+    text-decoration: none;
+}
+
 .breadcrumbs-avatar img {
     width: 40px;
     height: 40px;
     object-fit: cover;
     display: block;
-    margin-right: 12px;
+}
+
+.header-user span:last-child {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text);
 }
 
 .breadcrumbs a {
